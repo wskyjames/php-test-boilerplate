@@ -1,0 +1,29 @@
+{
+  "name": "wskyjames/php-test-boilerplate",
+  "description": "A boilerplate for PHP tests",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Boilerplate\\": "src/",
+      "Test\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "James Bennett",
+      "email": "wskyjames@gmail.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "8.3"
+    },
+    "sort-packages": true
+  }
+}
