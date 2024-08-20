@@ -4,10 +4,16 @@ A useful boilerplate for tech tests using PHP 8.2.
 
 ## Installation
 
-Using composer
+Clone the repo
 
 ```bash
-composer install wskyjames/php-test-boilerplate
+git clone https://github.com/wskyjames/php-test-boilerplate.git
+```
+
+Install requirements
+
+```bash
+composer install
 ```
 
 ## Usage
